@@ -1,0 +1,20 @@
+# 系统与临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak
+
+# 绝不应进仓库的东西（本仓库已按此自查）
+*.key
+*.pem
+*.p12
+.git-credentials
+.env
+*token*
+*secret*
+*password*
+
+# 本地工作产物
+node_modules/
